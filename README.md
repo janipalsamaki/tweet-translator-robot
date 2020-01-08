@@ -4,9 +4,10 @@ Translates the latest tweet for the given user name to given language.
 
 ## Pre-requisites
 
-Python 3
-Robot Framework
-SeleniumLibrary
+* Python 3 (https://www.python.org/)
+* Robot Framework (https://robotframework.org/)
+* SeleniumLibrary (https://robotframework.org/SeleniumLibrary/)
+* Firefox (https://www.mozilla.org/en-US/firefox/new/)
 
 ## Usage
 

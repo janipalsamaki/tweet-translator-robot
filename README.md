@@ -11,7 +11,7 @@ Translates the latest tweet for the given user name to given language.
 
 ## Usage
 
-Defaults to Donald Trump's latest tweet in Finnish:
+Defaults to Donald Trump's (`realDonaldTrump`) latest tweet in Finnish:
 
 ```zsh
 robot tweet-translator.robot

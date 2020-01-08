@@ -8,6 +8,7 @@ Translates the latest tweet for the given user name to given language.
 * Robot Framework (https://robotframework.org/)
 * SeleniumLibrary (https://robotframework.org/SeleniumLibrary/)
 * Firefox (https://www.mozilla.org/en-US/firefox/new/)
+* geckodriver (https://github.com/mozilla/geckodriver/releases)
 
 ## Usage
 

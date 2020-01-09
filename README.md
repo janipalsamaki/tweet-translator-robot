@@ -2,6 +2,17 @@
 
 Translates the latest tweet for the given user name to given language.
 
+## Workflow explanation
+
+Using a browser:
+
+* navigates to Twitter page for the given user name
+* stores a screenshot of the latest tweet
+* stores the text of the latest tweet
+* navigates to Google Translate
+* translates the tweet to given language
+* logs the original tweet and the translated tweet
+
 ## Pre-requisites
 
 * Python 3 (https://www.python.org/)
@@ -14,18 +25,28 @@ Translates the latest tweet for the given user name to given language.
 
 Defaults to Donald Trump's (`realDonaldTrump`) latest tweet in Finnish:
 
-```zsh
+```
 robot tweet-translator.robot
 ```
 
 ### Overriding the language
 
-```zsh
+```
 robot --variable LANGUAGE:Swedish tweet-translator.robot
 ```
 
 ### Overriding the user name
 
-```zsh
+```
 robot --variable "USER NAME":Madonna tweet-translator.robot
+```
+
+### Viewing the results
+
+View the generated `log.html` file in your browser.
+
+On OS X:
+
+```
+open log.html
 ```

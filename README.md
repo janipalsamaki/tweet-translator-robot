@@ -23,6 +23,10 @@ Using a browser:
 
 ## Usage
 
+Clone this repository.
+
+In your terminal, navigate to repository root.
+
 Defaults to Donald Trump's (`realDonaldTrump`) latest tweet in Finnish:
 
 ```

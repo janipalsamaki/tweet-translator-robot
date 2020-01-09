@@ -1,0 +1,5 @@
+BROWSER = "Firefox"
+GOOGLE_TRANSLATE_URL = "https://translate.google.com/"
+LANGUAGE = "Finnish"
+TWITTER_URL = "https://twitter.com/"
+USER_NAME = "realDonaldTrump"

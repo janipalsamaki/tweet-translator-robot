@@ -2,6 +2,10 @@
 
 Translates the latest tweet for the given user name to given language.
 
+![alt text](https://github.com/janipalsamaki/tweet-translator-robot/raw/master/images/example-execution.png "Example execution in terminal")
+
+![alt text](https://github.com/janipalsamaki/tweet-translator-robot/raw/master/images/example-tweet-screenshot.png "Example tweet screenshot")
+
 ## Workflow explanation
 
 Using a browser:

@@ -13,9 +13,9 @@ ${USER NAME}                realDonaldTrump
 Translate the latest tweet for given user name to given language
     ${tweet} =          Get latest tweet
     ${translation} =    Translate ${tweet} to ${LANGUAGE}
-    Log                 ${tweet}    console=yes
-    Log                 ${LANGUAGE}     console=yes
-    Log                 ${translation}  console=yes
+    Log                 \n\n${tweet}    console=yes
+    Log                 \n\n${LANGUAGE}     console=yes
+    Log                 \n\n${translation}\n  console=yes
     [Teardown]          Close Browser
 
 *** Keywords ***

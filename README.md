@@ -46,7 +46,7 @@ robot --variable LANGUAGE:Swedish tweet-translator.robot
 ### Overriding the user name
 
 ```
-robot --variable "USER NAME":Madonna tweet-translator.robot
+robot --variable USER_NAME:Madonna tweet-translator.robot
 ```
 
 ### Viewing the results
